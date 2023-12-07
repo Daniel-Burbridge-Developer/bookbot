@@ -7,7 +7,7 @@ class Book:
         self.character_count = self.get_count_per_character()
         self.report = self.generate_report()
     
-    def read_text_from_file(folder_path, file_name):
+    def read_text_from_file(self, folder_path, file_name):
         path_to_file = folder_path + file_name
 
         with open(path_to_file) as f:
@@ -18,7 +18,7 @@ class Book:
     
     def get_count_per_character(self):
         unique_characters = {}
-        text = self.text()
+        text = self.text
 
         for c in text:
             if c.isalpha():
