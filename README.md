@@ -1,2 +1,2 @@
 # bookbot
-Boot.dev walkthrough project
+BookBot is my first git project!
